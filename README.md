@@ -1,11 +1,25 @@
 # Rust project template
 
-## 环境搭建 
+## Quick Start
 
-### 安装 VSCode 插件
+```shell
+cargo generate -g https://github.com/l9ty/rust-project-template.git
+cd $PROJECT_ROOT
+# edit cliff.toml: `postprocessors = { replace = $PROJECT_REPO }`
+pre-commit install
+```
 
+
+## 环境配置
+
+### VSCode 插件
+
+- rust-analyzer: Rust 语言支持
+- Rust Test lens: Rust 测试支持
+- Rust Test Explorer: Rust 测试概览
 - crates: Rust 包管理
 - Even Better TOML: TOML 文件支持
+
 - Better Comments: 优化注释显示
 - Error Lens: 错误提示优化
 - GitLens: Git 增强
@@ -13,12 +27,9 @@
 - indent-rainbow: 缩进显示优化
 - Prettier - Code formatter: 代码格式化
 - REST client: REST API 调试
-- rust-analyzer: Rust 语言支持
-- Rust Test lens: Rust 测试支持
-- Rust Test Explorer: Rust 测试概览
 - TODO Highlight: TODO 高亮
-- vscode-icons: 图标优化
 - YAML: YAML 文件支持
+- vscode-icons: 图标优化
 
 ### cargo config
 
