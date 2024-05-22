@@ -38,7 +38,7 @@ cargo 全局配置 `~/.cargo/config.toml`
 ```toml
 [build]
 target-dir = ".target"
-# cargo install --locked sccache
+# cargo install sccache
 rustc-wrapper = ".cargo/bin/sccache"
 ```
 
@@ -47,7 +47,7 @@ rustc-wrapper = ".cargo/bin/sccache"
 cargo generate 是一个用于生成项目模板的工具。它可以使用已有的 github repo 作为模版生成新的项目。
 
 ```bash
-cargo install --locked cargo-generate
+cargo install cargo-generate
 ```
 
 ```bash
@@ -70,7 +70,7 @@ pipx install pre-commit
 Cargo deny 是一个 Cargo 插件，可以用于检查依赖的安全性。
 
 ```bash
-cargo install --locked cargo-deny
+cargo install cargo-deny
 ```
 
 ### 安装 typos
@@ -78,7 +78,7 @@ cargo install --locked cargo-deny
 typos 是一个拼写检查工具。
 
 ```bash
-cargo install --locked typos-cli
+cargo install typos-cli
 ```
 
 ### 安装 git cliff
@@ -86,7 +86,7 @@ cargo install --locked typos-cli
 git cliff 是一个生成 changelog 的工具。
 
 ```bash
-cargo install --locked git-cliff
+cargo install git-cliff
 ```
 
 ### 安装 cargo nextest
@@ -94,5 +94,5 @@ cargo install --locked git-cliff
 cargo nextest 是一个 Rust 增强测试工具。
 
 ```bash
-cargo install --locked cargo-nextest
+cargo install cargo-nextest
 ```
