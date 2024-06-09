@@ -12,6 +12,14 @@ pre-commit install
 
 ## 环境配置
 
+### Install rustup
+
+```shell
+export RUSTUP_DIST_SERVER=https://mirrors.ustc.edu.cn/rust-static
+export RUSTUP_UPDATE_ROOT=https://mirrors.ustc.edu.cn/rust-static/rustup
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 ### VSCode 插件
 
 - rust-analyzer: Rust 语言支持
